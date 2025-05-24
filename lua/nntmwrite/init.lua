@@ -2,7 +2,7 @@ local M = {}
 
 -- Default configuration
 M.config = {
-	socket_path = "/tmp/todo.sock", -- default socket path
+	socket_path = "/tmp/nntm-stream", -- default socket path
 }
 
 function M.setup(config)
